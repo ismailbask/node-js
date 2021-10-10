@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: slateblue;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 2px solid;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: goldenrod;
+  border: 1px solid black;
+  padding: 5px;
+  background: midnightblue;
+  border-radius: 6px;
+}
+nav ul li a:hover {
+  background-color: goldenrod;
+  color: midnightblue;
+}
+section {
+  max-width: 800px;
+  margin: 40px auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 40px auto;
+}
+form input {
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+form input[type="submit"] {
+  border: 1px solid black;
+  background: midnightblue;
+  cursor: pointer;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 6px;
+}
+form input[type="submit"]:hover {
+  background: goldenrod;
+  color: midnightblue;
+}
+form input[placeholder],
+textarea[placeholder] {
+  color: midnightblue;
+  font-weight: bolder;
+  font-size: large;
+}

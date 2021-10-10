@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./inc/head')%>
+</head>
+<body>
+    <%-include('./inc/nav')%>
+    <form action="/admin/add" method="POST">
+        <input type="text" name="title" placeholder="Başlık">
+        <input type="text" name="short" placeholder="Açıklama">
+        <!-- <label for="long"><strong> İçerik giriniz</strong></label> -->
+        <textarea name="long" id="" cols="30" rows="10" placeholder="içerik giriniz..."></textarea>
+        
+        <input type="submit" value="Kaydet">
+    </form>
+
+</body>
+</html>
